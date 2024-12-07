@@ -1,0 +1,802 @@
+
+/* this css or nav bar */
+/* General styles for links */
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #28a745; /* Green color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Button hover effects */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Search Bar Hover Effects */
+input[type="text"]:focus {
+    border-color: #28a745; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Light shadow */
+}
+
+input[type="text"]:hover {
+    border-color: #28a745; /* Change border color on hover */
+}
+
+/* Hover effects for icons */
+img:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+    transition: transform 0.3s ease;
+}
+
+/* Navbar Links hover effect */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for navigation bar links */
+.navbar a:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: white; /* White text on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+/* Category Button Hover */
+button:hover {
+    background-color: #218838; /* Darker green */
+}
+
+/* Wishlist and Cart icon hover effect */
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* For the main navbar, add hover effect to each link */
+.navbar a:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: white;
+}
+
+.hover-text {
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.hover-text:hover {
+    color: #FFD700; /* Light effect color */
+}
+</style>
+
+<div style="background-color: white; color: black; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center;">
+<div class="hover-text">
+    Fast Delivery Service Same Day Delivery Lahore
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* yha tk */
+
+
+/* this is for ad to cart option working wala new  */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-summary {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+}
+
+.cart-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item span {
+    flex: 1;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    padding: 5px 10px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.quantity-controls button:hover {
+    background-color: #e07b00;
+}
+
+.quantity-controls input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.proceed-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.proceed-btn:hover {
+    background-color: #218838;
+}
+
+
+/* yha tk  */
+.what  :hover{
+color: orange;
+  transition: 5.s;
+
+  transform: matrix();
+  text-shadow: 10m;
+  box-shadow: red;
+  
+  
+  }
+
+  .bestdis  :hover{
+            font-size: 48px;
+            color: #333; /* Default color */
+            text-align: center;
+            transition: all 0.3s ease; /* Smooth transition effect */
+        }
+
+        /* Hover effect for h1 */
+        .bestdis :hover {
+            color: #ff5722; /* Change color on hover */
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+        }
+  
+  
+
+body {
+
+  font-family: 'Lora';
+
+}
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            flex: 1 1 25%;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .contact-info h3 {
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+            color: #555;
+        }
+        .contact-form {
+            flex: 1 1 75%;
+            padding: 20px;
+        }
+        .contact-form h2 {
+            margin-bottom: 20px;
+        }
+        .contact-form .form-group {
+            margin-bottom: 15px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+
+#p{
+  color: white;
+}
+
+video {
+            width: 100%;
+            height: auto; /* Aspect ratio maintain karega */
+            max-height: 600px; /* Maximum height set kare */
+            border: 2px solid #ccc; /* Border daalne ke liye */
+            border-radius: 10px; /* Thoda round corner ke liye */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        /* Header Section */
+        .feedback-header {
+            text-align: center;
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: #fff;
+            padding: 20px 10px;
+            border-bottom: 5px solid #fff;
+        }
+
+        .feedback-header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        /* Feedback Container */
+        .feedback-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        /* Customer Image */
+        .customer-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .customer-image img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Customer Name */
+        .customer-name {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        /* Feedback Content */
+        .feedback-text {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Call-to-Action Section */
+        .cta-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #0056b3;
+        }
+
+/* this is nav  bar  */
+.navbar {
+            background-color: #f8f0e3; /* Soft beige background for elegance */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000; /* Keeps navbar above other elements */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #663399; /* A rich plum color */
+        }
+
+        .navbar-brand:hover {
+            color: #ff6600; /* Hover effect for the brand name */
+        }
+
+        .nav-link {
+            font-weight: bold;
+            color: #663399; /* Plum color for menu items */
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ff6600; /* Orange hover effect for links */
+        }
+
+        .navbar-toggler-icon {
+            background-color: #663399; /* Matches the link colors */
+        }
+
+        /* Search bar */
+        .form-control {
+            border: 1px solid #663399;
+        }
+
+        .btn-outline-success {
+            border-color: #663399;
+            color: #663399;
+            font-weight: bold;
+        }
+
+        .btn-outline-success:hover {
+            background-color: #663399;
+            color: white;
+        }
+
+        /* Spacing adjustments */
+        .navbar-nav .nav-item {
+            margin-left: 20px;
+        }
+
+        .navbar-brand img {
+            margin-left: 10px;
+            height: 40px;
+            width: 50px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .navbar-nav .nav-item {
+                margin-left: 0;
+                text-align: center;
+            }
+        }
+
+
+
+/* this is ad to cart option */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+    color: #8B4513;
+    font-size: 20px;
+    margin: 15px 0 5px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.card button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #6B3410;
+}
+
+.cart-summary {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.cart-summary h2 {
+    font-size: 22px;
+    color: #8B4513;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cart-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-summary ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-summary button {
+    display: block;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    width: 50%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cart-summary button:hover {
+    background-color: #6B3410;
+}
+/* this is cardbest option 22 */
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .fruit-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .fruit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .fruit-card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .fruit-card h4 {
+            font-size: 16px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .fruit-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+
+
+        
+    
+        /* this is dicooutn offer tag  */
+        .offers-container {
+            background-color: #f5f5f5;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .offers-heading {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .offers-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .offer-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+            overflow: hidden;
+            color: #333;  /* Default text color */
+        }
+        
+        .offer-card:hover {
+            transform: translateY(-10px);
+            color: #ff8c00;  /* Text color on hover */
+        }
+        
+        .offer-card h3 {
+            font-size: 26px;
+            font-weight: bold;
+            color: #d9534f;
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+        
+        .offer-card p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+            transition: color 0.3s ease;
+        }
+        
+        .offer-card:hover h3, .offer-card:hover p {
+            color: #ff8c00;  /* Text color change on hover */
+        }
+        
+        .discount {
+            font-size: 22px;
+            font-weight: bold;
+            color: #28a745;
+            background-color: #fff;
+            padding: 8px 20px;
+            border-radius: 30px;
+            margin-bottom: 25px;
+            display: inline-block;
+        }
+        
+        .cta-btn {
+            background-color: #ff2a68;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 30px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            letter-spacing: 1px;
+        }
+        
+        .cta-btn:hover {
+            background-color: #ff8c00;
+        }
+        
+        .offer-images {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .offer-images img {
+            width: 48%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .offer-images img:hover {
+            transform: scale(1.1);
+        }
+
+
+
+
+
+
+
+
+     /* this is for  */
+
+
+     /* this is for google map */
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+
+    .map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #a8edea, #fed6e3);
+    }
+
+    .map {
+        width: 80%;
+        max-width: 1200px;
+        height: 500px;
+        border: 5px solid #fff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
